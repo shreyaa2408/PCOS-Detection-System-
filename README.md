@@ -65,103 +65,142 @@ PCOS-Detection-System/
 │── output.PNG
 │── output1.PNG
 │── loss.png
-│── assets/
-│   ├── background and GUI images
 │── README.md
 │── requirements.txt
 │── .gitignore
+```
 
+---
 
-⚙️ How It Works
-The dataset is loaded and cleaned.
-Required preprocessing steps are applied.
-A machine learning model is trained on PCOS-related medical attributes.
-The trained model is saved using Joblib.
-Through the GUI, users can enter or test data for prediction.
-The system predicts whether the patient is likely to have PCOS.
-The application also includes a precaution section for awareness and basic guidance.
-📊 Machine Learning Workflow
-Dataset loading
-Missing value handling
-Label encoding / preprocessing
-Train-test split
-Model training
-Accuracy evaluation
-Prediction on user input
-🖥️ Modules Included
-1. Main GUI
+## ⚙️ How It Works
 
+1. The dataset is loaded and cleaned.
+2. Required preprocessing steps are applied.
+3. A machine learning model is trained on PCOS-related medical attributes.
+4. The trained model is saved using **Joblib**.
+5. Through the GUI, users can enter or test data for prediction.
+6. The system predicts whether the patient is likely to have **PCOS**.
+7. The application also includes a precaution section for awareness and basic guidance.
+
+---
+
+## 📊 Machine Learning Workflow
+
+- Dataset loading
+- Missing value handling
+- Label encoding / preprocessing
+- Train-test split
+- Model training
+- Accuracy evaluation
+- Prediction on user input
+
+---
+
+## 🖥️ Modules Included
+
+### 1. Main GUI
 The starting interface of the project that connects the user to the system.
 
-2. Login / Registration
-
+### 2. Login / Registration
 Allows users to create an account, log in, and manage credentials.
 
-3. Model Training
-
+### 3. Model Training
 Handles data preprocessing, training, and performance evaluation of the machine learning model.
 
-4. PCOS Prediction
-
+### 4. PCOS Prediction
 Allows prediction of PCOS based on medical input values.
 
-5. Precaution Module
-
+### 5. Precaution Module
 Displays basic precautionary and awareness-related guidance for PCOS.
 
-📈 Output
+---
+
+## 📈 Output
 
 The system provides:
+- PCOS prediction result
+- Accuracy / performance output
+- Precaution-related information
+- GUI-based interaction for easy use
 
-PCOS prediction result
-Accuracy / performance output
-Precaution-related information
-GUI-based interaction for easy use
-🚀 How to Run the Project
-1. Clone the repository
+---
+
+## 🚀 How to Run the Project
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/your-username/PCOS-Detection-System.git
 cd PCOS-Detection-System
-2. Install required libraries
+```
+
+### 2. Install required libraries
+
+```bash
 pip install -r requirements.txt
-3. Run the main file
+```
+
+### 3. Run the main file
+
+```bash
 python "gui main.py"
+```
 
-If you rename the file to gui_main.py, then run:
+> If you rename the file to `gui_main.py`, then run:
 
+```bash
 python gui_main.py
-📦 Requirements
+```
+
+---
+
+## 📦 Requirements
 
 Install the following Python libraries before running the project:
 
-pandas
-numpy
-matplotlib
-pillow
-scikit-learn
-joblib
-opencv-python
-📸 Screenshots
-Main Screen
+- pandas
+- numpy
+- matplotlib
+- pillow
+- scikit-learn
+- joblib
+- opencv-python
 
-Accuracy Output
+---
 
-Prediction Output
+## 📸 Screenshots
 
-📚 Dataset
+### Main Screen
+![Main Screen](output.PNG)
 
-The dataset used in this project contains PCOS-related patient medical parameters for prediction and analysis.
+### Accuracy Output
+![Accuracy](accuracy.PNG)
 
-Dataset source:
+### Prediction Output
+![Prediction](output1.PNG)
 
-Kaggle PCOS dataset
-Dataset link included in the project files (dataset link.txt)
-🔮 Future Enhancements
-Improve model accuracy with advanced ML algorithms
-Add more medical parameters and real-time analysis
-Build a web-based or mobile-based version
-Add better report generation and data visualization
-Enhance UI design and user experience
+---
 
-👩‍💻 Author
+## 📚 Dataset
 
-Shreya
+The dataset used in this project contains **PCOS-related patient medical parameters** for prediction and analysis.
+
+**Dataset source:**
+- Kaggle PCOS dataset
+- Dataset link included in the project files (`dataset link.txt`)
+
+---
+
+## 🔮 Future Enhancements
+
+- Improve model accuracy with advanced ML algorithms
+- Add more medical parameters and real-time analysis
+- Build a web-based or mobile-based version
+- Add better report generation and data visualization
+- Enhance UI design and user experience
+
+---
+
+## 👩‍💻 Author
+
+**Shreya**
