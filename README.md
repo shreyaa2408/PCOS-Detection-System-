@@ -125,6 +125,40 @@ The system provides:
 
 ---
 
+
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshots/home(1).png)
+
+### Login Page
+![Login Page](screenshots/login(1).png)
+
+### Registration Page
+![Registration Page](screenshots/registeration.png)
+
+### User Dashboard
+![User Dashboard](screenshots/user-dashboard.png)
+
+### Main Menu / Navigation
+![Main Menu](screenshots/menu.png)
+
+### PCOS Prediction Result
+![PCOS Detection Result](screenshots/detection.png)
+
+### PCOS Prediction Result 2
+![PCOS Detection Result 2](screenshots/detection2.png)
+
+### Precaution Page
+![Precaution Page](screenshots/precaution.png)
+
+### Diet Plan
+![Diet Plan](screenshots/diet.png)
+
+### Yoga / Tips Page
+![Yoga Page](screenshots/yoga.png)
+
+
 ## 🚀 How to Run the Project
 
 ### 1. Clone the repository
