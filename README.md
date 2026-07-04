@@ -129,10 +129,10 @@ The system provides:
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshots/home(1).png)
+![Home Page](screenshots/home.png)
 
 ### Login Page
-![Login Page](screenshots/login(1).png)
+![Login Page](screenshots/login.png)
 
 ### Registration Page
 ![Registration Page](screenshots/registeration.png)
